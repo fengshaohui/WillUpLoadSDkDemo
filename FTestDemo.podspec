@@ -133,8 +133,8 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "Masonry"
-  spec.dependency "AFNetworking"
-  spec.dependency "MJRefresh"
+ # spec.dependency "Masonry"
+ # spec.dependency "AFNetworking"
+ # spec.dependency "MJRefresh"
 
 end
