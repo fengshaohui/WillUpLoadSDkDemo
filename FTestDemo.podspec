@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/fengshaohui/WillUpLoadSDkDemo.git", :tag => spec.version.to_s }
+  spec.source       = { :git => "https://github.com/fengshaohui/WillUpLoadSDkDemo.git", :tag => spec.version }
   spec.requires_arc = true
   spec.ios.deployment_target = '9.0'
 
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "/Class/NSError+FPErrorMsg/*.{h,m}"
+  spec.source_files  = "FTestDemo/Class/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
