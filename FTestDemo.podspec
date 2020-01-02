@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "FTestDemo"
+  spec.name         = "FPTestDemo_Point"
   spec.version      = "0.0.4"
   spec.summary      = "sdk上传前测试"
 
