@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FTestDemo"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.3"
   spec.summary      = "sdk上传前测试"
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/fengshaohui/WillUpLoadSDkDemo.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/fengshaohui/WillUpLoadSDkDemo.git", :tag => 0.0.3 }
   spec.requires_arc = true
   spec.ios.deployment_target = '9.0'
 
