@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FTestDemo"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "sdk上传前测试"
 
   # This description is used to generate tags and improve search results.
