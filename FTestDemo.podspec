@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/fengshaohui/WillUpLoadSDkDemo.git", :tag => 0.0.3 }
+  spec.source       = { :git => "https://github.com/fengshaohui/WillUpLoadSDkDemo.git", :tag => spec.version }
   spec.requires_arc = true
   spec.ios.deployment_target = '9.0'
 
